@@ -30,7 +30,7 @@ Monitor dotnet core web api using prometheus
         http://<ip:port>/metrics
         http://<ip:port>/metrics-text
 
-- Add a new job in prometheus.yml
+- Add a new job in [prometheus.yml](https://github.com/narottamgoyal/MonitorDotNetCoreWebApiUsingPrometheus/blob/master/prometheus.yml)
 
         - job_name: 'SampleWebAPi'
             metrics_path: /metrics-text
