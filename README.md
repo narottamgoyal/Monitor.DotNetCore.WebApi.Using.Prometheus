@@ -2,14 +2,14 @@
 
 Monitor dotnet core web api using prometheus
 
-- Install the below packages
+- Install the below [packages](https://github.com/narottamgoyal/MonitorDotNetCoreWebApiUsingPrometheus/blob/master/SampleWebApi/SampleWebApi.csproj)
 
         <PackageReference Include="App.Metrics.AspNetCore" Version="3.2.0" />
         <PackageReference Include="App.Metrics.AspNetCore.Endpoints" Version="3.2.0" />
         <PackageReference Include="App.Metrics.AspNetCore.Tracking" Version="3.2.0" />
         <PackageReference Include="App.Metrics.Formatters.Prometheus" Version="3.2.0" />
 
-- Add the below code in Program.cs class to support prometheus
+- Add the below code in [Program.cs](https://github.com/narottamgoyal/MonitorDotNetCoreWebApiUsingPrometheus/blob/master/SampleWebApi/Program.cs) class to support prometheus
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
