@@ -74,3 +74,6 @@ Monitor dotnet core web api using prometheus
 - [Notification_examples](https://prometheus.io/docs/alerting/notification_examples/)
 - [Setting-up-alertmanager](https://daenney.github.io/2018/04/21/setting-up-alertmanager)
 - [Run Prometheus as service using NSSM](https://mclarenappliedtechnologies.zendesk.com/hc/en-us/articles/360008182953-Setting-up-Infrastructure-Monitoring-with-Prometheus-and-Grafana)
+- [Discovery with Consul](https://prometheus.io/blog/2015/06/01/advanced-service-discovery/#discovery-with-consul)
+- [Discovery with Consul](https://www.robustperception.io/finding-consul-services-to-monitor-with-prometheus)
+- [Discovery with Consul](https://visibilityspots.org/prometheus-consul.html)

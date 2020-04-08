@@ -34,3 +34,14 @@ scrape_configs:
     metrics_path: /metrics-text
     static_configs:
       - targets: ['localhost:8081']
+  # Use the below settings for Service discovery using consul
+  # - job_name: 'overwritten-default'
+  #   metrics_path: /metrics-text
+  #   consul_sd_configs:
+  #     - server: 'localhost:8500'
+  #       services: ['ServiceId1', 'ServiceId2']
+  #   relabel_configs:
+  #     - source_labels: [__meta_consul_tags]
+  #       action: keep
+  #     - source_labels: [__meta_consul_service]
+  #       target_label: job

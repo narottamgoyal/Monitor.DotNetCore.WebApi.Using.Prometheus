@@ -1,5 +1,5 @@
 groups:
-    - name: example
+    - name: InstanceDownAlert
       rules:
       - alert: InstanceDown
         expr: up == 0
