@@ -59,8 +59,8 @@ Monitor dotnet core web api using prometheus
 # Alert Manager
 
 - [Install Alert manager](https://github.com/prometheus/alertmanager/releases)
-- Create alertmanager.yml in Alert manager folder for email settings
-- Create alert_rules.yml in prometheus folder and update in prometheus.yml
+- Create [alertmanager.yml](https://github.com/narottamgoyal/Monitor.DotNetCore.WebApi.Using.Prometheus/blob/master/alertmanager.yml) in Alert manager folder for email settings
+- Create [alert_rules.yml](https://github.com/narottamgoyal/Monitor.DotNetCore.WebApi.Using.Prometheus/blob/master/alert_rules.yml) in prometheus folder and update in [prometheus.yml](https://github.com/narottamgoyal/Monitor.DotNetCore.WebApi.Using.Prometheus/blob/master/prometheus.yml)
 - Sample Alert email screenshot
 
   ![image](https://user-images.githubusercontent.com/2716202/78682081-142fbd80-78dd-11ea-93ad-227025d74cc7.png)
